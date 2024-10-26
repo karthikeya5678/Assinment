@@ -6,7 +6,7 @@ function Home() {
     return (
         <div className="home">
             <div className="image-container">
-                <img src={`${process.env.PUBLIC_URL}/wall2.jpg`} alt="Welcome" className="welcome-image" />
+                // <img src={`${process.env.PUBLIC_URL}/wall2.jpg`} alt="Welcome" className="welcome-image" />
                 <div className="overlay-text">Welcome</div>
             </div>
         </div>
