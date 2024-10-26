@@ -1,0 +1,146 @@
+/* src/index.css */
+
+/* Universal Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Layout */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: #24292f;
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #0366d6;
+  }
+  
+  /* Headers */
+  h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Home Component */
+  .home {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .home p {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  /* Users and Posts List */
+  .users, .posts {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+  
+  .users h1, .posts h1 {
+    font-size: 24px;
+    color: #0366d6;
+    margin-bottom: 20px;
+  }
+  
+  .users ul, .posts ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .users li, .posts li {
+    background-color: #f9fafb;
+    padding: 15px;
+    border: 1px solid #e1e4e8;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .users li:hover, .posts li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .posts h3 {
+    color: #24292f;
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  
+  .posts p {
+    color: #586069;
+    font-size: 16px;
+  }
+  
+  /* Button Style */
+  button {
+    background-color: #0366d6;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #24292f;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  

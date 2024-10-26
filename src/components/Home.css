@@ -1,0 +1,42 @@
+/* src/components/Home.css */
+.home {
+    text-align: center; /* Center align text */
+    padding: 50px; /* Space around content */
+     /* Dark background */
+    color: #ffffff; /* White text */
+}
+
+.image-container {
+    position: relative; /* Position relative for absolute positioning of text */
+    display: inline-block; /* Make the container fit the image */
+}
+
+.welcome-image {
+    max-width: 90%; /* Responsive image */
+    max-height: 50%; /* Maintain aspect ratio */
+    border-radius: 82%; /* Rounded corners */
+    animation: rotate 8s linear infinite; /* Rotate animation */
+}
+
+/* Keyframes for rotation */
+@keyframes rotate {
+    from {
+        transform: rotate(0deg); /* Start at 0 degrees */
+    }
+    to {
+        transform: rotate(360deg); /* End at 360 degrees */
+    }
+}
+
+.overlay-text {
+    position: absolute; /* Position absolutely within the container */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Offset to truly center */
+    color: #ffffff; /* White text */
+    font-size: 120px; /* Font size */
+    text-align: center; /* Center align text */
+     /* Semi-transparent background for contrast */
+    padding: 10px; /* Padding around text */
+    border-radius: 5px; /* Rounded corners for text box */
+}
